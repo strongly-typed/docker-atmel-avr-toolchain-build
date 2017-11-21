@@ -5,6 +5,7 @@ LABEL Description="Image with prerequisites for building Atmel AVR GNU toolchain
 RUN apt-get update \
     && apt-get upgrade -y \
     && apt-get install -y \
+        git \
         wget \
         autoconf2.64 \
         build-essential \
